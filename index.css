@@ -1,0 +1,438 @@
+/*Styles*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  font: 13px/1.5 Helivtica, Sans-serif;
+  color: #313131;
+}
+a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  justify-content: space-around;
+}
+.header .nav {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: auto;
+}
+header nav li {
+  padding: 0px;
+  float: right;
+  padding-right: 1.5rem;
+  list-style: none;
+}
+header nav li a {
+  color: white;
+  font-family: "Lobster", cursive;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.Container {
+  background-color: khaki;
+  width: 90;
+  margin: 15px auto;
+}
+.row {
+  width: 100%;
+}
+.Container::after,
+.row::after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+[class*="grid-"] {
+  float: left;
+  padding: 0 15px;
+}
+.grid-1 {
+  width: 8.3333333333333%;
+}
+.grid-2 {
+  width: 16.666666666666;
+}
+.grid-3 {
+  width: 25%;
+}
+.grid-4 {
+  width: 33.333333333333%;
+}
+.grid-5 {
+  width: 41.666666666666%;
+}
+.grid-6 {
+  width: 50%;
+}
+.grid-7 {
+  width: 58.333333333333%;
+}
+.grid-8 {
+  width: 66.666666666666%;
+}
+.grid-9 {
+  width: 75%;
+}
+.grid-10 {
+  width: 83.333333333333%;
+}
+.grid-11 {
+  width: 91.666666666666%;
+}
+.grid-12 {
+  width: 100;
+}
+.gin {
+  background-color: #ccc;
+  min-height: 25px;
+}
+header {
+  background-color: black;
+}
+.brand h1 {
+  font-family: "avenirNext" sans-serif;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 700;
+}
+.banner {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(img/tab768@2x.png);
+  height: 520px;
+  background-color: black;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.mar {
+  background-color: black;
+  color: black;
+  width: 100%;
+}
+header {
+  padding: 15px 0;
+}
+header::after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+.name {
+  font-family: "Lobster", cursive;
+  text-shadow: 4px 4px 4px #aaa;
+  font-size: 50px;
+  text-decoration-color: white;
+  padding-left: 30%;
+  padding-top: 20px;
+  text-transform: capitalize;
+  color: black;
+}
+.welcome {
+  padding-left: 40%;
+  font-weight: 500;
+}
+form {
+  padding-left: 50%;
+  padding-top: 5px;
+}
+button {
+  background-color: rgba(50, 52, 54, 0.333);
+  color: #fff;
+  font-size: 25px;
+  border-radius: 9px;
+  padding: 0.5rem;
+  font-family: "Roboto Slab", serif;
+  margin-top: 2rem;
+}
+button:hover {
+  background-color: #313131;
+}
+
+.gtn {
+  background-color: rgba(18, 10, 134, 0.333);
+  color: lightskyblue;
+  font-size: 25px;
+  border-radius: 9px;
+  padding: 0.5rem;
+  font-family: "Roboto Slab", serif;
+  margin-top: 2rem;
+}
+.gtn:hover {
+  background-color: lightseagreen;
+}
+.ft-bg {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  padding-left: 35%;
+}
+.soc-bt {
+  width: 25px;
+  height: 25px;
+  background-attachment: scroll;
+  margin-left: 2px;
+  text-decoration-color: black;
+}
+.copy-rt {
+  padding-left: 30%;
+  padding-right: 0;
+  color: deeppink;
+  font-size: 13px;
+  text-decoration-color: black;
+  padding-bottom: 10px;
+}
+footer {
+  background-color: lightseagreen;
+}
+/*
+button {
+  display: inline-block;
+  padding: 15px 20px;
+  font-size: 21px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {
+  background-color: black;
+}
+
+button:active {
+  background-color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}*/
+/*mobile*/
+@media (max-width: 767px) {
+  .mobile-nav {
+    display: block;
+    width: 32px;
+    height: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    float: right;
+  }
+  .mobile-nav .mn-stripe {
+    display: block;
+    height: 2px;
+    background-color: deeppink;
+    width: 90%;
+    margin: 5px auto 0 auto;
+  }
+  header .nav {
+    width: 100%;
+    display: none;
+    padding: 0;
+    float: none;
+    list-style: none;
+  }
+  header .nav li {
+    float: none;
+    padding-left: 10%;
+  }
+  header .nav li:first-child {
+    margin-top: 10px;
+  }
+  header .nav li a {
+    padding: 5px 0;
+  }
+  .mn-balancer {
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+  }
+  .banner {
+    background-image: url(img/photo7.jpeg);
+    height: 800px;
+    width: 480px;
+  }
+
+  header {
+    padding: 0 0px;
+    background-color: black;
+    width: 480px;
+  }
+  .name {
+    font-family: "Lobster", cursive;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    font-size: 40px;
+    text-decoration-color: black;
+    padding-top: 40px;
+    padding-left: 5px;
+    text-transform: capitalize;
+    color: lightseagreen;
+  }
+  .welcome {
+    padding-left: 5px;
+    padding-top: 90%;
+    text-decoration-color: black;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    color: deeppink;
+  }
+  form {
+    padding-left: 20%;
+    padding-top: 4%;
+  }
+  .mar {
+    background-color: black;
+    color: black;
+    width: 480px;
+  }
+  .ft-bg {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 30%;
+  }
+  .soc-bt {
+    width: 30px;
+    height: 30px;
+    background-attachment: scroll;
+    margin-left: 2px;
+    text-decoration-color: black;
+  }
+  .copy-rt {
+    padding-left: 45%;
+    padding-right: 0;
+    color: deeppink;
+    font-size: 13px;
+    text-decoration-color: black;
+    padding-bottom: 10px;
+  }
+  footer {
+    background-color: lightseagreen;
+    width: 480px;
+  }
+  /*tablet*/
+  @media (min-width: 768px) {
+    header {
+      padding: 15px 0;
+    }
+    header::after {
+      content: "";
+      visibility: hidden;
+      display: block;
+      height: 0;
+      clear: both;
+    }
+    header .brand {
+      width: 200px;
+      float: left;
+    }
+
+    header .nav {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      width: auto;
+      float: right;
+    }
+    header nav li {
+      float: left;
+      padding: 0px;
+    }
+    header nav li a {
+      color: white;
+      font-family: "Lobster", cursive;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      display: inline-block;
+      font-size: 20px;
+      font-weight: 500;
+      text-transform: capitalize;
+      text-decoration: none;
+    }
+    .banner {
+      background-image: url(img/tab768@2x.png);
+      height: 360px;
+      background-color: black;
+    }
+    .name {
+      font-family: "Lobster", cursive;
+      text-shadow: 4px 4px 4px #aaa;
+      font-size: 50px;
+      text-decoration-color: white;
+      padding-top: 40px;
+      padding-left: 25%;
+      text-transform: capitalize;
+      color: black;
+    }
+    .welcome {
+      padding-left: 5px;
+    }
+    form {
+      padding-left: 45%;
+      padding-top: 30px;
+    }
+  }
+  /*smallscreen*/
+  @media (min-width: 992px) {
+    .banner {
+      background-image: url(img/tab768@2x.png);
+      height: 360px;
+      background-color: black;
+      background-size: 70%;
+    }
+
+    /*desktop*/
+    @media (min-width: 1200px) {
+      .banner {
+        background-image: url(img/desktop@2x.png);
+        height: 700px;
+        background-color: black;
+      }
+      .name {
+        font-family: "Lobster", cursive;
+        text-shadow: 4px 4px 4px #aaa;
+        font-size: 60px;
+        text-decoration-color: white;
+        padding-left: 30%;
+        padding-top: 20px;
+        text-transform: capitalize;
+        color: black;
+      }
+      .ft-bg {
+        padding-top: 20px;
+        padding-bottom: 0px;
+        padding-left: 45%;
+      }
+      .soc-bt {
+        width: 25px;
+        height: 25px;
+        background-attachment: scroll;
+        margin-left: 2px;
+        text-decoration-color: black;
+      }
+      .copy-rt {
+        padding-left: 38%;
+        padding-right: 0;
+        color: deeppink;
+        font-size: 16px;
+        padding-bottom: 10px;
+      }
+      footer {
+        background-color: lightseagreen;
+      }
+      /*desktop1280*/
+    }
+  }
+}
+/*here we go with contact form styles*/

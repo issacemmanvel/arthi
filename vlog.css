@@ -1,0 +1,242 @@
+/*Styles*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+body {
+  font: 13px/1.5 Helivtica, Sans-serif;
+  color: #313131;
+}
+.Container {
+  background-color: khaki;
+  width: 90%;
+  margin: 15px auto;
+}
+.row {
+  width: 100%;
+}
+.Container::after,
+.row::after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+[class*="grid-"] {
+  float: left;
+  padding: 0 15px;
+}
+.grid-1 {
+  width: 8.3333333333333%;
+}
+.grid-2 {
+  width: 16.666666666666;
+}
+.grid-3 {
+  width: 25%;
+}
+.grid-4 {
+  width: 33.333333333333%;
+}
+.grid-5 {
+  width: 41.666666666666%;
+}
+.grid-6 {
+  width: 50%;
+}
+.grid-7 {
+  width: 58.333333333333%;
+}
+.grid-8 {
+  width: 66.666666666666%;
+}
+.grid-9 {
+  width: 75%;
+}
+.grid-10 {
+  width: 83.333333333333%;
+}
+.grid-11 {
+  width: 91.666666666666%;
+}
+.grid-12 {
+  width: 100;
+}
+.gin {
+  background-color: #ccc;
+  min-height: 25px;
+}
+h1 {
+  padding: 0 0px 30px;
+  float: left;
+  color: black;
+  font-family: "Lobster", cursive;
+  text-transform: capitalize;
+}
+.vlog {
+  padding: 25px 80px;
+  border-radius: 5px;
+  float: left;
+  background-color: white;
+}
+.vlog-1 {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 25px 80px;
+  border-radius: 5px;
+  background-color: #c1c1c1;
+  text-shadow: 4px 4px 4px #aaa;
+  color: black;
+  float: left;
+}
+.btn1 {
+  padding-right: 0;
+  padding-left: 80%;
+}
+.img-bt {
+  width: 96px;
+  height: 90px;
+  background-attachment: scroll;
+}
+.img-bt:hover {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row1 {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin: 1px;
+}
+
+/* Create four equal columns that sits next to each other */
+.col {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  margin: 1px;
+}
+
+.col img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  margin: 1px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .col {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*mobile*/
+@media (max-width: 767px) {
+  .col {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+  h1 {
+    padding-left: 40%;
+    float: left;
+    color: black;
+    font-family: "Lobster", cursive;
+    text-transform: capitalize;
+  }
+  .btn1 {
+    padding-right: 0;
+    padding-left: 45%;
+    padding-bottom: 5px;
+  }
+  .img-bt {
+    width: 62px;
+    height: 60px;
+    background-attachment: scroll;
+  }
+  .img-bt:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+/*tablet*/
+@media (min-width: 768px) {
+  .col {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*smallscreen*/
+@media (min-width: 992px) {
+  .col {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*desktop*/
+@media (min-width: 1200px) {
+  .col {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+  .btn1 {
+    padding-right: 0;
+    padding-left: 50%;
+    padding-bottom: 5px;
+  }
+  .img-bt {
+    width: 96px;
+    height: 90px;
+    background-attachment: scroll;
+  }
+  .img-bt:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}

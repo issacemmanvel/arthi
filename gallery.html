@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="gallery.css" >
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>gallery<h1>
+<hr>
+
+<h2>images & Arts</h2>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('photos')"> photos</button>
+  <button class="btn" onclick="filterSelection('FineArts')">FineArts</button>
+  <button class="btn" onclick="filterSelection('Magazine')">Magazine</button>
+</div>
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column photos">
+    <div class="content">
+      <img src="./img/photos/photo1.jpeg" alt="girl" style="width:100%">
+    </div>
+  </div>
+  <div class="column photos">
+    <div class="content">
+    <img src="./img/photos/photo2.jpeg" alt="Lights" style="width:100%">
+      
+      
+    </div>
+  </div>
+  <div class="column photos">
+    <div class="content">
+    <img src="./img/photos/photo3.jpeg" alt="Nature" style="width:100%">
+    </div>
+  </div>
+  
+      <div class="column photos">
+        <div class="content">
+          <img src="./img/photos/photo10.jpeg" alt="girl" style="width:100%">
+        </div>
+      </div>
+
+      <div class="column photos">
+        <div class="content">
+        <img src="./img/photos/photo5.jpeg" alt="girl" style="width:100%">  
+        </div>
+      </div>
+
+      <div class="column photos">
+        <div class="content">
+        <img src="./img/photos/photo6.jpeg" alt="girl" style="width:100%">
+        </div>
+      </div>
+      
+      <div class="column photos">
+          <div class="content">
+            <img src="./img/photos/photo7.jpeg" alt="girl" style="width:100%">
+          </div>
+        </div>
+  
+        <div class="column photos">
+          <div class="content">
+          <img src="./img/photos/photoblank1.png" alt="girl" style="width:100%">  
+          </div>
+        </div>
+  
+        <div class="column photos">
+          <div class="content">
+          <img src="./img/photos/photoblank2.png" alt="girl" style="width:100%">
+          </div>
+        </div>
+        <div class="column Magazine">
+            <div class="content">
+              <img src="./img/magazine/magazine1.jpeg"  alt="magazine" style="width:100%">
+            </div>
+          </div>
+          <div class="column Magazine">
+            <div class="content">
+            <img src="./img/magazine/magazine2.jpeg" alt="magazine" style="width:100%">
+            </div>
+          </div>
+          <div class="column Magazine">
+            <div class="content">
+            <img src="./img/magazine/magazine3.jpeg" alt="magazine" style="width:100%">
+            </div>
+          </div>
+
+
+          <div class="column Magazine">
+              <div class="content">
+                <img src="./img/magazine/magazine4.jpeg"  alt="magazine" style="width:100%">
+              </div>
+            </div>
+            <div class="column Magazine">
+              <div class="content">
+              <img src="./img/magazine/magazine5.jpeg" alt="magazine" style="width:100%">
+              </div>
+            </div>
+            <div class="column Magazine">
+              <div class="content">
+              <img src="./img/magazine/magazineblank1.png" alt="magazine" style="width:100%">
+              </div>
+            </div>
+
+
+
+  <div class="column FineArts">
+    <div class="content">
+      <img src="./img/painting/Acrylic-deers.JPG" alt="deer" style="width:100%">
+      <h4>Acrylic-deers</h4>
+      
+    </div>
+  </div>
+  <div class="column FineArts">
+    <div class="content">
+    <img src="./img/painting/Acrylic-parrots.JPG" alt="parrots" style="width:100%">
+      <h4>Acrylic-parrots</h4>
+     
+    </div>
+  </div>
+  <div class="column FineArts">
+    <div class="content">
+    <img src="./img/painting/Acrylic-Ship.jpg" alt="ship" style="width:100%">
+      <h4>Acrylic-Ship</h4>  
+    </div>
+  </div>
+
+  
+  <div class="column FineArts">
+    <div class="content">
+      <img src="./img/painting/Pencil-baby.jpg" alt="baby" style="width:100%" height="auto">
+      <h4>Pencil-Babe</h4>
+    </div>
+  </div>
+
+  <div class="column FineArts">
+    <div class="content">
+    <img id="myImg" src="./img/painting/Pencil-Nehru.jpg" alt="Nehru" style="width:100%">
+      <h4>Pencil-Nehru</h4> 
+    </div>
+  </div>
+
+  <div class="column FineArts">
+      <div class="content">
+      <img src="./img/painting/Pencil-girl.jpg" alt="girl" style="width:100%">
+        <h4>Pencil-Girl</h4>
+      </div>
+    </div>
+
+  <div class="column FineArts">
+    <div class="content">
+    <img src="./img/painting/Acrylic-Peacock.jpg" alt="peacock" style="width:100%">
+      <h4>Acrylic-Peacock</h4>  
+    </div>
+  </div>
+
+
+  <div class="column FineArts">
+    <div class="content">
+      <img src="./img/painting/Acrylic-Ganesha.JPG" alt="ganesha" style="width:100%" height="auto">
+      <h4>Acrylic-Ganesha</h4>
+    </div>
+  </div>
+  <div class="column FineArts">
+      <div class="content"> 
+      <img src="./img/painting/Acrylic-flower vase.JPG" alt="flower" style="width:100%">
+      <h4>Acrylic-flower vase</h4>
+      </div>
+    </div>
+
+    <div class="column FineArts">
+        <div class="content"> 
+        <img src="./img/painting/Pen-Animals.jpg" alt="animal" style="width:100%">
+        <h4>Pen-Animals</h4>    
+        </div>
+      </div>
+      </div>
+  <div class="column FineArts">
+      <div class="content"> 
+      <img src="./img/painting/Pen-Kamakshi Ambal.jpg" alt="kamakshi" style="width:100%">
+      <h4>Pen-Kamakshi Ambal</h4>
+      </div>
+    </div>
+    </div>
+    <div class="column FineArts">
+        <div class="content"> 
+        <img src="./img/painting/Acrylic-Girl.jpg" id="myImg" alt="Girl" style="width:100%">
+        <h4>Acrylic-Girl</h4>
+        </div>
+      </div>
+      </div>
+    <div class="column FineArts">
+        <div class="content"> 
+        <img src="./img/painting/Water colour-Fruits.jpg" alt="colour-Fruits" style="width:100%">
+        <h4>Water Colour-fruits</h4>
+        </div>
+      </div>
+  
+   
+      
+  
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script src="gallery.js"></script>
+
+
+<a class="btn1" href="index.html"
+      ><img
+        class="img-bt"
+        src="img/cancel button.png"
+        title="White flower"
+        alt="cancel"
+    /></a>
+</body>
+</html>
