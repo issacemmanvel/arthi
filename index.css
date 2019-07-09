@@ -185,7 +185,7 @@ button:hover {
   text-decoration-color: black;
 }
 .copy-rt {
-  padding-left: 30%;
+  padding-left: 55%;
   padding-right: 0;
   color: deeppink;
   font-size: 13px;
@@ -301,11 +301,11 @@ button:active {
   .ft-bg {
     padding-top: 20px;
     padding-bottom: 0px;
-    padding-left: 30%;
+    padding-left: 55%;
   }
   .soc-bt {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     background-attachment: scroll;
     margin-left: 2px;
     text-decoration-color: black;
@@ -314,7 +314,7 @@ button:active {
     padding-left: 45%;
     padding-right: 0;
     color: deeppink;
-    font-size: 13px;
+    font-size: 16px;
     text-decoration-color: black;
     padding-bottom: 10px;
   }
@@ -412,17 +412,17 @@ button:active {
       .ft-bg {
         padding-top: 20px;
         padding-bottom: 0px;
-        padding-left: 45%;
+        padding-left: 60%;
       }
       .soc-bt {
-        width: 25px;
-        height: 25px;
+        width: 30px;
+        height: 30px;
         background-attachment: scroll;
         margin-left: 2px;
         text-decoration-color: black;
       }
       .copy-rt {
-        padding-left: 38%;
+        padding-left: 25%;
         padding-right: 0;
         color: deeppink;
         font-size: 16px;
